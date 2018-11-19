@@ -1,0 +1,155 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/bckportait"
+    tools:context="com.jds.varadhi.jds.Login.FirstMobileNumberFragment">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:alpha="0.5"
+        android:background="#cae7ef8f">
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="@dimen/mar_padd_5dp"
+            app:cardElevation="@dimen/mar_padd_2dp"
+            android:layout_margin="10dp"
+            app:cardBackgroundColor="#00000000"
+            >
+
+            <LinearLayout
+                android:id="@+id/loginLinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:visibility="visible"
+                android:background="#68e6ef6b">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.8"
+                    android:gravity="center"
+                    android:visibility="gone"
+                    android:layout_marginStart="@dimen/mar_padd_5dp"
+                    android:layout_marginTop="25dp"
+                    android:background="@drawable/karnataka_map"
+                    android:layout_marginBottom="25dp">
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2.2"
+                    android:gravity="center"
+                    android:layout_margin="@dimen/mar_padd_5dp"
+                    android:orientation="vertical">
+
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/questrial"
+                        android:textSize="@dimen/text15sp"
+                        android:gravity="center"
+                        android:text="Please type the verification code sent to" />
+
+                    <TextView
+                        android:id="@+id/tvUserMobileNumber"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/questrial"
+                        android:textSize="@dimen/text15sp"
+                        android:text="+9188******95"
+                        android:layout_marginTop="@dimen/mar_padd_5dp"/>
+
+                    <LinearLayout
+                        android:layout_width="300dp"
+                        android:layout_height="@dimen/dimen40dp"
+                        android:orientation="horizontal"
+                        android:layout_marginStart="@dimen/mar_padd_5dp"
+                        android:layout_marginEnd="@dimen/mar_padd_5dp"
+                        android:background="@drawable/card_shape_back"
+                        android:layout_marginTop="@dimen/mar_padd_10dp">
+
+                        <com.jds.varadhi.jds.Mpin
+                            android:id="@+id/mPinOtp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:inputType="number"
+                            app:password="false"
+                            app:pinBackground="@drawable/example_drawable"
+                            app:pinHeight="22dp"
+                            android:gravity="center"
+                            app:pinLength="6"
+                            android:focusable="true"
+                            app:pinWidth="22dp"/>
+
+
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/btnNextSecondFragment"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:text="Next"
+                        android:fontFamily="@font/questrial"
+                        android:textColor="@color/whitecolor"
+                        android:layout_marginTop="@dimen/mar_padd_15dp"
+                        android:background="@drawable/btn_round_shape_blue"/>
+
+
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.8"
+                    android:gravity="center"
+                    android:layout_margin="@dimen/mar_padd_10dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/jds"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="@dimen/mar_padd_10dp"/>
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+    </RelativeLayout>
+
+
+
+
+
+</RelativeLayout>
+

@@ -1,0 +1,212 @@
+<resources>
+    <string name="app_name">JDS</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_login2">Sign in 2</string>
+    <string name="title_activity_login3">Sign in 3</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="employee_information">Personal Details</string>
+    <string name="clickbutton">clickButton</string>
+    <string name="marital_details">Marital Details</string>
+    <string name="medical_details">Medical Details</string>
+    <string name="parent_details">Parent Details</string>
+    <string name="address_details">Address Details</string>
+    <string name="id_proof_details">ID Proof Details</string>
+    <string name="schooling_details">School Details</string>
+    <string name="Puc_details">PUC Details</string>
+    <string name="ug_details">UG Details</string>
+    <string name="pg_details">PG Details</string>
+    <string name="phd_details">PHD Details</string>
+    <string name="achievement_details">Achievements Details</string>
+    <string name="first_name">First Name*</string>
+    <string name="middle_name">Middle Name</string>
+    <string name="last_name">Last Name*</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="others">Others</string>
+    <string name="birth_place">Birth Place*</string>
+    <string name="date_of_birth">Date of Birth*</string>
+    <string name="emailid">EmailId</string>
+    <string name="caste">Caste*</string>
+    <string name="subcaste">Subcaste</string>
+    <string name="aadhar_card_number">Aadhar Card Number</string>
+    <string name="pan_card_number">PAN Card Number</string>
+    <string name="voter_id_number">Voter ID Number</string>
+    <string name="passport_number">Passport Number</string>
+    <string name="email">Email</string>
+    <string name="father_details">Father Details</string>
+    <string name="mother_details">Mother Details</string>
+    <string name="present_street">Present street</string>
+    <string name="cityPresent">City*</string>
+    <string name="cityPermanent">City</string>
+
+    <string name="countryPresent">Country*</string>
+    <string name="countryPermanent">Country</string>
+    <string name="contact_numberPresent">Contact Number*</string>
+    <string name="same_as_present_address">Same as present address</string>
+    <string name="permanent_street">Permanent Street</string>
+    <string name="permanent">Permanent</string>
+    <string name="permanent_city">Permanent City</string>
+    <string name="permanent_state">Permanent State</string>
+    <string name="permanent_country">Permanent Country</string>
+    <string name="permanent_contact_number">Permanent contact number</string>
+    <string name="married">Married</string>
+    <string name="unmarried">Unmarried</string>
+    <string name="marriage_anniversary">Marriage Anniversary</string>
+    <string name="mobile_number">Mobile Number*</string>
+    <string name="number_of_child">Number of Child</string>
+    <string name="blood_group">Blood Group</string>
+    <string name="height">Height</string>
+    <string name="centimeter">centimeter</string>
+    <string name="weight">Weight</string>
+    <string name="kilogram">Kilogram</string>
+    <string name="short_eye_vision">Short Eye Vision</string>
+    <string name="long_eye_vision">Long Eye Vision</string>
+    <string name="any_medical_related_issues">Any Medical Related Issues</string>
+    <string name="personal_doctor_contact_number">Personal Doctor Contact Number</string>
+    <string name="email_id">Email ID</string>
+    <string name="alphabet">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz \u0020 " " </string>
+    <string name="alphabetComma">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz,</string>
+    <string name="alphabetDot">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz.</string>
+    <string name="alphabetNumeric">ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789</string>
+    <string name="addressValidation">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789#,/ " ".-</string>
+
+    <string name="alphabetNumeric1">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789 " "</string>
+    <string name="choose_image">Choose Image</string>
+    <string name="emailValid">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789@_.</string>
+
+
+    <string name="school_name">School Name*</string>
+    <string name="board_name">Board Name*</string>
+
+    <string name="year_of_passing">Year of Passing*</string>
+    <string name="year_of_passinga">Year of Passing</string>
+
+    <string name="state">State*</string>
+    <string name="statePresent">State*</string>
+    <string name="statePermanent">State</string>
+
+    <string name="board">Board*</string>
+    <string name="attach_documents">Attach Documents</string>
+
+    <string name="percentage">Percentage*</string>
+    <string name="percentagea">Percentage</string>
+
+
+    <string name="college_name">College Name*</string>
+    <string name="college_namea">College Name</string>
+
+    <string name="university_name">University Name*</string>
+    <string name="university_namea">University Name</string>
+
+    <string name="course_name">Course Name</string>
+
+    <string name="branch_name">Branch Name*</string>
+    <string name="branch_namea">Branch Name</string>
+
+
+    <string name="specialization">Specialization*</string>
+    <string name="specializationa">Specialization</string>
+
+
+    <string name="number_of_achievements">Achievements</string>
+    <string name="add_experience">Add Experience</string>
+    <string name="experience_details">Experience Details</string>
+    <string name="organisation_place">Organisation City</string>
+    <string name="relevant_exp">Relevant Exp</string>
+    <string name="from_exp">From Exp</string>
+    <string name="to_exp">To Exp</string>
+    <string name="total_experience">Total Experience</string>
+    <string name="door_numberPresent">Present Address*</string>
+    <string name="door_numberPermanent">Present Door Number</string>
+
+    <string name="street_namePresent">Street Name*</string>
+    <string name="street_namePermanent">Street Name</string>
+
+    <string name="localityPresent">Locality*</string>
+    <string name="localityPermanent">Locality</string>
+
+    <string name="landmarkPresent">Landmark*</string>
+    <string name="landmarkPermanent">Landmark</string>
+
+    <string name="pincodePresent">Pincode*</string>
+    <string name="pincodePermanent">Pincode</string>
+
+
+    <string name="designation">Designation</string>
+    <string name="gross_salary">Gross Salary</string>
+    <string name="department">Department</string>
+    <string name="nationality">Nationality*</string>
+    <string name="organisation_name">Organisation Name</string>
+    <string name="graduate_details">Graduate Details</string>
+    <string name="minus">-</string>
+    <string name="_0">0</string>
+    <string name="add">+</string>
+    <string name="hr_number">HR Number</string>
+    <string name="AchievementTitle">achievementTitle</string>
+    <string name="AchievementDescription">achievementDescription</string>
+    <string name="year">Year</string>
+    <string name="place">Place</string>
+    <string name="achievement1">Achievement1</string>
+    <string name="description">Description</string>
+    <string name="achievement_title">Achievement Title</string>
+    <string name="childrens">Childrens</string>
+    <string name="submit">Submit</string>
+    <string name="sports_details">Sports Details</string>
+    <string name="add_achievements">Add Achievements</string>
+    <string name="add_sports">Add Sports</string>
+    <string name="issue">Issue</string>
+    <string name="sports_name">Sports Name</string>
+    <string name="level">Level</string>
+    <string name="position">position</string>
+    <string name="team_name">Team Name</string>
+    <string name="venue_location">Venue/Location</string>
+    <string name="role">Role</string>
+    <string name="responsibility">Responsibility</string>
+    <string name="_1">1</string>
+    <string name="employer">EMPLOYER</string>
+    <string name="employee">EMPLOYEE</string>
+    <string name="userid">UserId</string>
+    <string name="password">Password</string>
+    <string name="sign_in">sign in</string>
+    <string name="forgot_your_login_details">Forgot your login details ?</string>
+    <string name="get_help_signing_in">Get help signing in.</string>
+    <string name="employee_id">Employee ID</string>
+    <string name="bloodGroup">ABO-+</string>
+    <string name="joining_date">Joining Date</string>
+    <string name="leaving_date">Leaving Date</string>
+    <string name="abhishek_gupta">Abhishek Gupta</string>
+    <string name="vs017xbh0007">VS017xBH0007</string>
+    <string name="vs017bh0007">VS017BH0007</string>
+    <string name="upload_attendance">Upload Attendance</string>
+    <string name="upload_csv">Upload CSV</string>
+    <string name="attach_file">Attach file</string>
+    <string name="total">Total</string>
+    <string name="_17">17</string>
+    <string name="slash">/</string>
+    <string name="_20">20</string>
+    <string name="_07">07</string>
+    <string name="_10">10</string>
+    <string name="android">Android</string>
+    <string name="process">Process</string>
+    <string name="vs017bh00007">VS017BH00007</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="image_description_android_phone">flagimage</string>
+
+
+</resources>

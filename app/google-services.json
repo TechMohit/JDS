@@ -1,0 +1,130 @@
+{
+  "project_info": {
+    "project_number": "12160407657",
+    "firebase_url": "https://politicaljds.firebaseio.com",
+    "project_id": "politicaljds",
+    "storage_bucket": "politicaljds.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:12160407657:android:de194d99046ad58b",
+        "android_client_info": {
+          "package_name": "com.jds.varadhi.jds"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "12160407657-imme4hvfi8e0fa4atc62iuo5t5ma7co7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jds.varadhi.jds",
+            "certificate_hash": "9d2b1c47b8c0aa70c26386a3c29dce756b0d7af2"
+          }
+        },
+        {
+          "client_id": "12160407657-9gs8l4skfhh8jlsg7673fjildlad3fou.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvy9maJKwbTP9zUteTJ4DyAXCnVUFbWEw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "12160407657-9gs8l4skfhh8jlsg7673fjildlad3fou.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:12160407657:android:2c2e23b8147b63bc",
+        "android_client_info": {
+          "package_name": "com.varadhismartek.politicalerp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "12160407657-9gs8l4skfhh8jlsg7673fjildlad3fou.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvy9maJKwbTP9zUteTJ4DyAXCnVUFbWEw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:12160407657:android:cf24ef8057dde286",
+        "android_client_info": {
+          "package_name": "varadhi.jds.com.jds"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "12160407657-lg43njvmmqb7f9ocmqot5tn4cua9p7qa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "varadhi.jds.com.jds",
+            "certificate_hash": "e3b36f420c3ba9c4833d2390a5c0bd8d12188c71"
+          }
+        },
+        {
+          "client_id": "12160407657-9gs8l4skfhh8jlsg7673fjildlad3fou.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvy9maJKwbTP9zUteTJ4DyAXCnVUFbWEw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "12160407657-9gs8l4skfhh8jlsg7673fjildlad3fou.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,47 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.jds.varadhi.jds.Login.ThirdMpinFragment">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.jds.varadhi.jds.CircleImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/devegowda"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="@dimen/dimen30dp"/>
+
+        <com.jds.varadhi.jds.CircleImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="right"
+            android:src="@drawable/hdk"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="@dimen/dimen30dp"/>
+
+    </FrameLayout>
+
+
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+       android:background="#b2ffffff">
+
+
+       <com.jds.varadhi.jds.PasscodeView
+           android:id="@+id/passcodeView"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"/>
+
+   </LinearLayout>
+
+
+
+</FrameLayout>

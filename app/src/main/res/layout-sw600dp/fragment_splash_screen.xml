@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bckportait"
+    tools:context="com.jds.varadhi.jds.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#cae7ef8f">
+
+
+
+        <pl.bclogic.pulsator4droid.library.PulsatorLayout
+            android:id="@+id/pulsator"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            app:pulse_count="5"
+            app:pulse_duration="5000"
+            app:pulse_repeat="0"
+            app:pulse_color="@color/colorYelow"
+            app:pulse_startFromScratch="true"
+            app:pulse_interpolator="Linear">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/flag1"
+                android:contentDescription="@string/image_description_android_phone"/>
+
+
+        </pl.bclogic.pulsator4droid.library.PulsatorLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:layout_gravity="center"
+            android:id="@+id/namelayout">
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Janata Dal (Secular)"
+                android:textColor="@color/colorAccent"
+                android:textSize="30sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="6"
+            android:id="@+id/loginlayout"
+            android:visibility="gone">
+
+            <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:background="#00000000"
+                tools:context="com.jds.varadhi.jds.Login.FirstMobileNumberFragment">
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:alpha="0.5">
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+                    <android.support.v7.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="@dimen/mar_padd_5dp"
+                        app:cardElevation="@dimen/mar_padd_2dp"
+                        app:cardBackgroundColor="#3ecbff7d"
+                        android:layout_margin="10dp">
+
+                        <LinearLayout
+                            android:id="@+id/loginLinearLayout"
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+                            android:visibility="visible">
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.8"
+                                android:gravity="center"
+                                android:layout_marginStart="@dimen/mar_padd_5dp"
+                                android:layout_marginTop="25dp"
+                                android:background="@drawable/karnataka_map"
+                                android:layout_marginBottom="25dp">
+
+                            </LinearLayout>
+
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="2.2"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/questrial"
+                                    android:text="Please enter your"
+                                    android:textSize="20sp"
+                                    android:layout_gravity="center"/>
+
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/questrial"
+                                    android:text="mobile number"
+                                    android:textSize="20sp"
+                                    android:layout_gravity="center"/>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="@dimen/dimen40dp"
+                                    android:layout_marginTop="@dimen/mar_padd_15dp"
+                                    android:background="@drawable/background_edittext"
+                                    android:orientation="horizontal"
+                                    >
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:layout_marginStart="@dimen/mar_padd_15dp"
+                                        android:fontFamily="@font/questrial"
+                                        android:text="+91"
+                                        android:textSize="@dimen/text15sp" />
+
+                                    <View
+                                        android:layout_width="@dimen/mar_padd_1dp"
+                                        android:layout_height="35dp"
+                                        android:layout_gravity="center"
+                                        android:layout_marginBottom="@dimen/mar_padd_2dp"
+                                        android:layout_marginStart="@dimen/mar_padd_15dp"
+                                        android:layout_marginTop="2dp"
+                                        android:background="#e2e1e1" />
+
+
+                                    <EditText
+                                        android:id="@+id/etMobileNumber"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:layout_marginStart="@dimen/mar_padd_5dp"
+                                        android:background="@null"
+                                        android:fontFamily="@font/questrial"
+                                        android:hint="Mobile Number"
+                                        android:maxLength="10"
+                                        android:inputType="number"
+                                        android:textColor="@color/hintColor"
+                                        android:textSize="@dimen/text20sp" />
+
+                                </LinearLayout>
+
+                                <Button
+                                    android:id="@+id/btnNextFirstFragment"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="30dp"
+                                    android:layout_marginTop="25dp"
+                                    android:background="@drawable/btn_round_shape_blue"
+                                    android:fontFamily="@font/questrial"
+                                    android:text="Next"
+                                    android:textSize="18sp"
+                                    android:textColor="@color/whitecolor" />
+
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.8"
+                                android:gravity="center"
+                                android:layout_margin="@dimen/mar_padd_10dp">
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:background="@drawable/jds"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginBottom="@dimen/mar_padd_10dp"/>
+
+                            </LinearLayout>
+
+
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+                </RelativeLayout>
+
+
+
+
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="LokshabhaList">
+        <item>Tumkur</item>
+        <item>Chikkodi</item>
+        <item>Belagavi</item>
+        <item>Bagalkot</item>
+        <item>Bijapur</item>
+        <item>Kalaburagi</item>
+        <item>Raichur</item>
+        <item>Bidar</item>
+        <item>Koppal</item>
+        <item>Bellary</item>
+        <item>Haveri</item>
+        <item>Dharwad</item>
+        <item>Uttara Kannada</item>
+        <item>Davanagere</item>
+        <item>Shimoga</item>
+        <item>Udupi Chikmagalur</item>
+        <item>Hassan</item>
+        <item>Dakshina Kannada</item>
+        <item>Chitradurga</item>
+        <item>Mandya</item>
+        <item>Mysore</item>
+        <item>Chamarajanagar</item>
+        <item>Bangalore Rural</item>
+        <item>Bangalore North</item>
+        <item>Bangalore Central</item>
+        <item>Bangalore South</item>
+        <item>Chikballapur</item>
+        <item>Kolar</item>
+
+    </string-array>
+    
+    <string-array name="Assembly_Segments">
+        <item>Chikkanayakanahalli</item>
+        <item>Gubbi</item>
+        <item>Koratagere</item>
+        <item>Madhugiri</item>
+        <item>Tiptur</item>
+        <item>Tumkur City</item>
+        <item>Tumkur Rural</item>
+        <item>Turuvekere</item>
+
+    </string-array>
+
+
+    <string-array name="ModuleNames">
+        <item>Add Member</item>
+        <item>Notification</item>
+        <item>Schedule</item>
+        <item>Gallery</item>
+        <item>Roles</item>
+    </string-array>
+
+</resources>

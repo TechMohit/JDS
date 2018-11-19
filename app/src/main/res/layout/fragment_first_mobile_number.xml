@@ -1,0 +1,165 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#c0e4ae"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.jds.varadhi.jds.Login.FirstMobileNumberFragment">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:alpha="0.5">
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="@dimen/mar_padd_5dp"
+            app:cardElevation="@dimen/mar_padd_2dp"
+            android:layout_margin="10dp"
+            app:cardBackgroundColor="#7cffffff"
+            >
+
+            <LinearLayout
+                android:id="@+id/loginLinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:visibility="visible">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.8"
+                    android:gravity="center"
+                    android:layout_marginStart="@dimen/mar_padd_5dp"
+                    android:layout_marginTop="25dp"
+                    android:background="@drawable/karnataka_map"
+                    android:layout_marginBottom="25dp">
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2.2"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/questrial"
+                        android:text="Please enter your"
+                        android:textSize="16sp"
+                        android:layout_gravity="center"/>
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/questrial"
+                        android:text="mobile number"
+                        android:textSize="16sp"
+                        android:layout_gravity="center"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/dimen40dp"
+                        android:layout_marginTop="@dimen/mar_padd_15dp"
+                        android:background="@drawable/background_edittext"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="@dimen/mar_padd_15dp"
+                            android:fontFamily="@font/questrial"
+                            android:text="+91"
+                            android:textSize="@dimen/text15sp" />
+
+                        <View
+                            android:layout_width="@dimen/mar_padd_1dp"
+                            android:layout_height="35dp"
+                            android:layout_gravity="center"
+                            android:layout_marginBottom="@dimen/mar_padd_2dp"
+                            android:layout_marginStart="@dimen/mar_padd_15dp"
+                            android:layout_marginTop="2dp"
+                            android:background="#e2e1e1" />
+
+
+                        <EditText
+                            android:id="@+id/etMobileNumber"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="@dimen/mar_padd_5dp"
+                            android:background="@null"
+                            android:fontFamily="@font/questrial"
+                            android:hint="Mobile Number"
+                            android:maxLength="10"
+                            android:inputType="number"
+                            android:textColor="@color/hintColor"
+                            android:textSize="@dimen/text15sp" />
+
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/btnNextFirstFragment"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="25dp"
+                        android:background="@drawable/btn_round_shape_blue"
+                        android:fontFamily="@font/questrial"
+                        android:text="Next"
+                        android:textColor="@color/whitecolor" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.8"
+                    android:gravity="center"
+                    android:layout_margin="@dimen/mar_padd_10dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/jds"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="@dimen/mar_padd_10dp"/>
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+    </RelativeLayout>
+
+
+
+
+
+</RelativeLayout>
+
