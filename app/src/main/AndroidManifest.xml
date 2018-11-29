@@ -36,7 +36,7 @@
         <activity
             android:name=".Login.LoginActivity"
             android:theme="@style/AppTheme_green"
-            android:windowSoftInputMode="adjustResize|stateVisible"
+            android:windowSoftInputMode="adjustPan|adjustResize"
             android:configChanges="keyboardHidden"
             >
 

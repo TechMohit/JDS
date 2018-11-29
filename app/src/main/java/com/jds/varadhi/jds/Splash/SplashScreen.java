@@ -57,7 +57,8 @@ public class SplashScreen extends Fragment implements View.OnClickListener {
 
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_splash_screen, container, false);
-        getActivity().getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_ADJUST_RESIZE);
+       // getActivity().getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_ADJUST_RESIZE);
+       // getActivity().getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_ADJUST_PAN | WindowManager.LayoutParams.SOFT_INPUT_STATE_HIDDEN);
         initViews(view);
         Animation animFadeIn = AnimationUtils.loadAnimation(getContext(),R.anim.fade_in);
         name.startAnimation(animFadeIn);

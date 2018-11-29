@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
+import android.text.InputType;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -53,7 +54,7 @@ public class FirstMobileNumberFragment extends Fragment implements View.OnClickL
         //btnSignUp            = v.findViewById(R.id.btnSignUp);
         //btnSignUp.setOnClickListener(this);
         btnNextFirstFragment.setOnClickListener(this);
-
+        etMobileNumber.setRawInputType(InputType.TYPE_CLASS_NUMBER);
         return v;
     }
     @Override

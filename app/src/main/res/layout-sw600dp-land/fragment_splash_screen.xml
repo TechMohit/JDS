@@ -59,7 +59,7 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:visibility="gone"
+            android:visibility="visible"
             android:layout_marginRight="20dp"
             android:id="@+id/loginlayout">
 
@@ -69,12 +69,10 @@
                 android:layout_height="wrap_content"
                 app:cardCornerRadius="@dimen/mar_padd_5dp"
                 app:cardElevation="@dimen/mar_padd_2dp"
+                android:layout_marginTop="@dimen/mar_padd_5dp"
+                android:layout_marginBottom="@dimen/mar_padd_5dp"
                 app:cardBackgroundColor="#3ecbff7d"
-                android:layout_marginRight="@dimen/mar_padd_10dp"
-                android:layout_marginLeft="@dimen/mar_padd_10dp"
-                android:layout_marginBottom="@dimen/mar_padd_10dp"
-                android:layout_marginTop="200dp"
-                >
+               android:layout_gravity="center_vertical">
 
                 <LinearLayout
                     android:id="@+id/loginLinearLayout"
@@ -83,8 +81,7 @@
                     android:layout_weight="1"
                     android:gravity="center"
                     android:orientation="horizontal"
-                    android:visibility="visible"
-                    >
+                    android:visibility="visible">
 
                     <LinearLayout
                         android:layout_width="0dp"
@@ -126,7 +123,7 @@
 
                         <LinearLayout
                             android:layout_width="match_parent"
-                            android:layout_height="@dimen/dimen40dp"
+                            android:layout_height="wrap_content"
                             android:layout_marginTop="@dimen/mar_padd_15dp"
                             android:background="@drawable/background_edittext"
                             android:orientation="horizontal"
@@ -183,7 +180,7 @@
                     <LinearLayout
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:layout_weight="0.8"
+                        android:layout_weight="1"
                         android:gravity="center"
                         android:layout_margin="@dimen/mar_padd_10dp">
 
